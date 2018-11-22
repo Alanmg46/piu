@@ -1,0 +1,169 @@
+html, body{
+	height: 100%;
+}
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Exo:400,900');
+
+body{
+	background-image: url("../imagens/background.jpg");
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    background-color: #70afff;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #70afff;
+}
+header h1{
+	text-align: left;
+	height: 3.5em;
+}
+
+header nav{
+	background-color: #3373c4;
+	height: 2.5em;
+	text-align: center;
+}
+header h1 a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+}
+header nav li{
+	display: inline;
+}
+header nav input[type=text] {
+	border-radius: 10px;
+	width: 15%;
+	height:15%;
+    border: none;
+	background-color: rgb(225,218,235);
+	margin-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 30px;
+	font-size: 18px;
+	transition: background-color 0.5s;
+}
+header nav input[type=text]:focus {
+	background-color: white;
+}
+header nav li a{
+	margin-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	transition: color 0.3s;
+	transition-timing-function: ease-out;
+	
+}
+header nav li a:hover{
+	color: #c4b3e0;
+	text-decoration: none;
+	background-color: #70539a;
+	border-radius: 2px;
+}
+header nav li b{
+	color: white;
+	font-size:20px;
+}
+main {
+	margin: 0 auto;
+	max-width: 74.8em; 
+	background-color: white; 
+	width: 80%;
+}
+main figure{
+	display: inline-block;
+}
+main div{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	margin-bottom: 3em;
+	background-color: #FCFF94;
+	width: 35%; 
+	height: 90%;
+}
+main div p{
+	text-align: center;
+	width: 70%;
+	margin: 8em auto;
+    font-family: 'Exo', sans-serif;
+}
+main div img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+main div.lateral{
+    display: inline-block;
+    text-align: center;
+    float:right;
+}
+.logo{
+	width: 130px; 
+	height: 100px;
+}
+.lupa{
+	 width: 20px;
+	 height: 20px;
+}
+.pesquisa{
+	margin-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: background-color 0.7s;
+}
+.pesquisa:hover {
+	background-color: #70539a;
+	border-radius: 2px;
+}
+.telasapp{
+	width: 200px; 
+	height: 400px;
+}
+.footertext {
+	color: white;
+}
+.avatar {
+	width: 13em;
+	height: 13em;
+	float: left;
+	border-radius: 50%;
+	margin-right: 5%;
+}
+
+.desc {
+	margin-top: 3.5em;
+}
+ol.avatares{
+	list-style: none;
+	padding: 15px;
+}
+
+ol.avatares li{
+	padding: 20px;
+	margin-bottom: 6em;
+}
